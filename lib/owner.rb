@@ -1,3 +1,4 @@
+require pry 
 class Owner
   attr_reader :name, :species
 
@@ -26,7 +27,7 @@ class Owner
   end
 
   def cats
-
+    Cat.all.select {|c| binding.pry}
   end
 
 end

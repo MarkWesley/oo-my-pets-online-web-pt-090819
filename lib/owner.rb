@@ -5,4 +5,9 @@ class Owner
     @name = name
     @species = species
   end
+
+  def say_species
+    puts "I am a #{species}."
+  end
+  
 end

@@ -50,13 +50,13 @@ class Owner
     self.cats.each {|cat| cat.mood = "happy"}
   end
 
-  def pets 
+  def pets
     pets = []
     pets << cats && dogs 
   end
 
   def sell_pets
-    
+
   end
 
 end

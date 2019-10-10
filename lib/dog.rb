@@ -2,7 +2,7 @@ class Dog
   attr_accessor :owner, :mood
   attr_reader :name
 
-  @@all 
+  @@all
 
   def initialize(name, owner, mood = "nervous")
     @name = name
@@ -11,7 +11,7 @@ class Dog
     @@all << self
   end
 
-  def self.all 
+  def self.all
     @@all
   end
 
